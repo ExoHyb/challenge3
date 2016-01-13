@@ -1,0 +1,350 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+*/
+
+a {
+  background-color: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+} 
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  font-family: "News Cycle";
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 17px;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  height: 100px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header h3 {
+  height: 100px;
+  display: inline-block;
+  margin: auto;
+  line-height: 89px;
+  color: #2B3F48;
+}
+
+nav {
+  float: right;
+  height: 100px;
+  line-height: 59px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2B3F48;
+}
+
+nav a:hover {
+  color: #27AE61;
+}
+
+button {
+  width: 264px;
+  height: 70px;
+  margin-top: 75px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+section {
+  padding-top: 100px;
+}
+
+article {
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+article img {
+  border-radius: 100%;
+  margin-left: 22.5px;
+  margin-right: 22.5px;
+}
+
+.sec-1 {
+  height: 830px;
+  background-image: url("img/banner.png");
+  background-color: #269f5a;
+  background-size: cover;
+  color: rgba(255,255,255,.8);
+}
+
+#but-1 {
+  background-color: #2B3F48;
+  color: #FFFFFF;
+}
+
+.sec-2 {
+  background-color: #EEEEEE;
+  height: 620px;
+  color: #2B3F48;
+}
+
+#but-2 {
+  background-color: #27AE61;
+  color: rgba(255,255,255,.8);
+}
+
+.sec-3 {
+  background-color: #27AE61;
+  color: rgba(255,255,255,.8);
+  height: 620px;
+}
+
+#but-3 {
+  background-color: #FFFFFF;
+  color: #27AE61;
+}
+
+footer {
+  text-transform: uppercase;
+  text-align: center;
+  color: #656565;
+  height: 200px;
+  line-height: 200px;
+}
+
+footer p {
+  font-size: 0.80em;
+}
